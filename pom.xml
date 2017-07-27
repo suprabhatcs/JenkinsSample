@@ -157,12 +157,10 @@
             <url>http://repo1.maven.org/maven2/</url>
             <layout>default</layout>
        </repository>
-       <repository>
-         <id>codehaus-mule-repo</id>
-         <name>codehaus-mule-repo</name>
-         <url>https://repository.mulesoft.org/nexus/content/groups/public/</url>
-         <layout>default</layout>
- </repository>
+            <repository>
+                <id>mule-public</id>
+                <url> https://repository.mulesoft.org/nexus/content/repositories/public </url>
+      </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -174,6 +172,10 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
+         <pluginRepository>
+                <id>mule-public</id>
+                <url> https://repository.mulesoft.org/nexus/content/repositories/public </url>
+            </pluginRepository>
     </pluginRepositories>
 
 </project>
